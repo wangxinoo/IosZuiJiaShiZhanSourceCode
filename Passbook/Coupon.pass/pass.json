@@ -1,0 +1,32 @@
+{
+    "formatVersion" : 1,
+    "teamIdentifier" : "8K3KC973J3",
+    "passTypeIdentifier" : "pass.com.iphonedemo.helloworldcoupon",
+    "serialNumber" : "000001",
+    "organizationName" : "IPHONE dev",
+    "description" : "Hello World凭证！",
+    "logoText" : "苹果开发者打折券",
+    "foregroundColor" : "rgb(255, 255, 255)",
+    "backgroundColor" : "rgb(135, 129, 189)",
+    "coupon" : {
+        "primaryFields" :[
+            {
+            "key" : "offer",
+            "label" : "三折券",
+            "value" : "仅限1月1日"
+            }
+        ],
+	"secondaryFields" : [
+           {
+	   "key" : "addtional",
+	   "label" : "补充说明",
+	   "value" : "本券仅提供给苹果开发者"
+    	   }
+	]
+    },
+    "barcode":{
+    	"message" : "COUPON-APPDEV-IPHONE-000001",
+    	"format" : "PKBarcodeFormatPDF417",
+    	"messageEncoding" : "iso-8859-1"
+    }
+}

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2844" systemVersion="11G63" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1930"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="4">
+            <objects>
+                <viewController id="2" customClass="XYZViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5">
+                        <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rcl-sI-AQ0">
+                                <items>
+                                    <barButtonItem title="Share" id="KVr-n7-Ctt">
+                                        <connections>
+                                            <action selector="shareButtonTapped:" destination="2" id="9aI-TS-MGQ"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <imageView userInteractionEnabled="NO" contentMode="center" image="search_text.png" translatesAutoresizingMaskIntoConstraints="NO" id="pj5-pw-Sdk">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="104" id="Kli-xt-MLb"/>
+                                    <constraint firstAttribute="height" constant="53" id="cO6-fC-0j9"/>
+                                </constraints>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TlN-b2-JrX">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="6pm-3k-elM"/>
+                                    <constraint firstAttribute="width" constant="236" id="pWf-Tp-6Th"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="2" id="gYO-3U-YxW"/>
+                                </connections>
+                            </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="divider_bar.png" translatesAutoresizingMaskIntoConstraints="NO" id="7jj-tS-6Ku">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="17" id="RXn-Np-sYV"/>
+                                </constraints>
+                            </imageView>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" minimumZoomScale="0.0" maximumZoomScale="0.0" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="3Ob-pk-8g5">
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="850" id="Waa-ds-nEa"/>
+                                    <constraint firstAttribute="width" constant="720" id="jpc-z7-ePl"/>
+                                </constraints>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="KWY-Gs-DWx">
+                                    <size key="itemSize" width="196" height="156"/>
+                                    <size key="headerReferenceSize" width="50" height="90"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="FlickrCell" id="Gxw-95-qIi" customClass="FlickrPhotoCell">
+                                        <rect key="frame" x="0.0" y="90" width="196" height="156"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="196" height="156"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="RGd-iI-aLK">
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="95" id="yAv-Pc-GnR"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <imageView userInteractionEnabled="NO" contentMode="center" image="pushpin.png" translatesAutoresizingMaskIntoConstraints="NO" id="HB3-Td-t7f">
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="18" id="aug-5M-6oy"/>
+                                                        <constraint firstAttribute="width" constant="38" id="wc9-GK-iLp"/>
+                                                    </constraints>
+                                                </imageView>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="RGd-iI-aLK" secondAttribute="bottom" constant="20" type="default" id="Eeg-hu-1oq"/>
+                                            <constraint firstItem="RGd-iI-aLK" firstAttribute="leading" secondItem="Gxw-95-qIi" secondAttribute="leading" constant="20" type="default" id="MAg-y9-yUt"/>
+                                            <constraint firstItem="HB3-Td-t7f" firstAttribute="centerX" secondItem="RGd-iI-aLK" secondAttribute="centerX" type="default" id="OIY-vq-SCo"/>
+                                            <constraint firstItem="RGd-iI-aLK" firstAttribute="top" secondItem="HB3-Td-t7f" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="Pej-B3-YJU"/>
+                                            <constraint firstAttribute="trailing" secondItem="RGd-iI-aLK" secondAttribute="trailing" constant="20" type="default" id="lL9-4V-GMO"/>
+                                        </constraints>
+                                        <connections>
+                                            <outlet property="imageView" destination="RGd-iI-aLK" id="HhA-DE-mUJ"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <collectionReusableView key="sectionHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="FlickrPhotoHeaderView" id="AHu-ct-5zq" customClass="FlickrPhotoHeaderView">
+                                    <rect key="frame" x="0.0" y="0.0" width="720" height="90"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vpa-4w-dUB">
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="90" id="3kX-XG-7eq"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lW1-JE-I5w">
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="21" id="bnz-It-XZC"/>
+                                                <constraint firstAttribute="width" constant="400" id="gPg-x7-dDb"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                            <color key="textColor" red="0.23608059540000001" green="0.51676092689999997" blue="0.94679857339999995" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstItem="lW1-JE-I5w" firstAttribute="leading" secondItem="AHu-ct-5zq" secondAttribute="leading" constant="170" id="3wG-Uy-XKO"/>
+                                        <constraint firstItem="vpa-4w-dUB" firstAttribute="top" secondItem="AHu-ct-5zq" secondAttribute="top" constant="-8" id="CUb-I6-meN"/>
+                                        <constraint firstItem="lW1-JE-I5w" firstAttribute="top" secondItem="AHu-ct-5zq" secondAttribute="top" constant="26" id="Qjy-j5-xyO"/>
+                                        <constraint firstItem="lW1-JE-I5w" firstAttribute="leading" secondItem="vpa-4w-dUB" secondAttribute="leading" type="default" id="ZOt-Wl-1KR"/>
+                                        <constraint firstItem="lW1-JE-I5w" firstAttribute="trailing" secondItem="vpa-4w-dUB" secondAttribute="trailing" type="default" id="fgf-oi-EuR"/>
+                                    </constraints>
+                                    <connections>
+                                        <outlet property="backgroundImageView" destination="vpa-4w-dUB" id="caf-GR-q1g"/>
+                                        <outlet property="searchLabel" destination="lW1-JE-I5w" id="eHD-IC-3tL"/>
+                                    </connections>
+                                </collectionReusableView>
+                                <connections>
+                                    <outlet property="dataSource" destination="2" id="3zd-N8-wzI"/>
+                                    <outlet property="delegate" destination="2" id="bNe-z4-5Hu"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="TlN-b2-JrX" firstAttribute="leading" secondItem="5" secondAttribute="leading" constant="328" id="538-Ai-12W"/>
+                            <constraint firstItem="pj5-pw-Sdk" firstAttribute="top" secondItem="5" secondAttribute="top" constant="56" id="8fy-MO-N1y"/>
+                            <constraint firstAttribute="trailing" secondItem="7jj-tS-6Ku" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="9zx-dK-cqO"/>
+                            <constraint firstItem="rcl-sI-AQ0" firstAttribute="trailing" secondItem="5" secondAttribute="trailing" type="default" id="AHm-78-Ek8"/>
+                            <constraint firstItem="pj5-pw-Sdk" firstAttribute="leading" secondItem="5" secondAttribute="leading" constant="202" id="HHq-Iy-tIA"/>
+                            <constraint firstItem="7jj-tS-6Ku" firstAttribute="leading" secondItem="5" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="QAp-ee-qlA"/>
+                            <constraint firstItem="3Ob-pk-8g5" firstAttribute="top" secondItem="5" secondAttribute="top" constant="129" id="Qge-XT-YCJ"/>
+                            <constraint firstItem="7jj-tS-6Ku" firstAttribute="top" secondItem="TlN-b2-JrX" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="Sx8-Pn-xAl"/>
+                            <constraint firstItem="TlN-b2-JrX" firstAttribute="top" secondItem="5" secondAttribute="top" constant="68" id="dsw-Yu-GN0"/>
+                            <constraint firstItem="rcl-sI-AQ0" firstAttribute="leading" secondItem="5" secondAttribute="leading" type="default" id="nIo-k5-QeR"/>
+                            <constraint firstItem="3Ob-pk-8g5" firstAttribute="leading" secondItem="5" secondAttribute="leading" constant="23" id="uV4-bS-pkH"/>
+                            <constraint firstItem="rcl-sI-AQ0" firstAttribute="top" secondItem="5" secondAttribute="top" type="default" id="wlz-sU-mAz"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="collectionView" destination="3Ob-pk-8g5" id="Z1H-Ro-Kdv"/>
+                        <outlet property="shareButton" destination="KVr-n7-Ctt" id="HXc-lq-Nx4"/>
+                        <outlet property="textField" destination="TlN-b2-JrX" id="LdJ-al-Gd0"/>
+                        <outlet property="toolbar" destination="rcl-sI-AQ0" id="TXZ-00-nSy"/>
+                        <segue destination="P0V-Wf-b2Y" kind="modal" identifier="ShowFlickrPhoto" modalPresentationStyle="formSheet" id="HAK-Ef-zMp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+        <!--Flickr Photo View Controller-->
+        <scene sceneID="Kme-pP-D8U">
+            <objects>
+                <viewController id="P0V-Wf-b2Y" customClass="FlickrPhotoViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3H1-f3-QSm">
+                        <rect key="frame" x="0.0" y="0.0" width="540" height="620"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zsw-2Z-IpQ">
+                                <items>
+                                    <barButtonItem title="Done" id="ttV-Qd-CkU">
+                                        <connections>
+                                            <action selector="done:" destination="P0V-Wf-b2Y" id="ZBF-DW-C1L"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="1" verticalHuggingPriority="1" horizontalCompressionResistancePriority="1" verticalCompressionResistancePriority="1" translatesAutoresizingMaskIntoConstraints="NO" id="i6H-b3-xLu"/>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="zsw-2Z-IpQ" firstAttribute="trailing" secondItem="3H1-f3-QSm" secondAttribute="trailing" type="default" id="D7j-O9-wci"/>
+                            <constraint firstAttribute="bottom" secondItem="i6H-b3-xLu" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="HiQ-Ze-YOU"/>
+                            <constraint firstItem="i6H-b3-xLu" firstAttribute="leading" secondItem="3H1-f3-QSm" secondAttribute="leading" type="default" id="K9G-hM-YMF"/>
+                            <constraint firstItem="zsw-2Z-IpQ" firstAttribute="leading" secondItem="3H1-f3-QSm" secondAttribute="leading" type="default" id="MD1-pu-95C"/>
+                            <constraint firstItem="i6H-b3-xLu" firstAttribute="trailing" secondItem="3H1-f3-QSm" secondAttribute="trailing" type="default" id="W1a-Xh-MWJ"/>
+                            <constraint firstItem="zsw-2Z-IpQ" firstAttribute="top" secondItem="3H1-f3-QSm" secondAttribute="top" type="default" id="u8L-ki-sOd"/>
+                            <constraint firstItem="i6H-b3-xLu" firstAttribute="top" secondItem="zsw-2Z-IpQ" secondAttribute="bottom" type="default" id="xcD-Rg-MiG"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="i6H-b3-xLu" id="RjG-wN-LYf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qjq-or-zcg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="936" y="-8"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="divider_bar.png" width="697" height="13"/>
+        <image name="pushpin.png" width="22" height="31"/>
+        <image name="search_text.png" width="97" height="25"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9326F77916A2993200B05E00 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9326F77816A2993200B05E00 /* UIKit.framework */; };
+		9326F77B16A2993200B05E00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9326F77A16A2993200B05E00 /* Foundation.framework */; };
+		9326F77D16A2993200B05E00 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9326F77C16A2993200B05E00 /* CoreGraphics.framework */; };
+		9326F78316A2993200B05E00 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9326F78116A2993200B05E00 /* InfoPlist.strings */; };
+		9326F78516A2993200B05E00 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9326F78416A2993200B05E00 /* main.m */; };
+		9326F78916A2993200B05E00 /* GATestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9326F78816A2993200B05E00 /* GATestAppDelegate.m */; };
+		9326F78B16A2993300B05E00 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9326F78A16A2993300B05E00 /* Default.png */; };
+		9326F78D16A2993300B05E00 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9326F78C16A2993300B05E00 /* Default@2x.png */; };
+		9326F78F16A2993300B05E00 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9326F78E16A2993300B05E00 /* Default-568h@2x.png */; };
+		9326F79216A2993300B05E00 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9326F79016A2993300B05E00 /* MainStoryboard.storyboard */; };
+		9326F79516A2993300B05E00 /* GATestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9326F79416A2993300B05E00 /* GATestViewController.m */; };
+		9326F7A116A29AE100B05E00 /* libGoogleAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9326F7A016A29A9D00B05E00 /* libGoogleAnalytics.a */; };
+		9326F7A316A29AE800B05E00 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9326F7A216A29AE800B05E00 /* CoreData.framework */; };
+		9326F7A516A29AF100B05E00 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9326F7A416A29AF100B05E00 /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9326F77416A2993200B05E00 /* GATestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GATestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9326F77816A2993200B05E00 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9326F77A16A2993200B05E00 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9326F77C16A2993200B05E00 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9326F78016A2993200B05E00 /* GATestApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GATestApp-Info.plist"; sourceTree = "<group>"; };
+		9326F78216A2993200B05E00 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9326F78416A2993200B05E00 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9326F78616A2993200B05E00 /* GATestApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GATestApp-Prefix.pch"; sourceTree = "<group>"; };
+		9326F78716A2993200B05E00 /* GATestAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GATestAppDelegate.h; sourceTree = "<group>"; };
+		9326F78816A2993200B05E00 /* GATestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GATestAppDelegate.m; sourceTree = "<group>"; };
+		9326F78A16A2993300B05E00 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		9326F78C16A2993300B05E00 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		9326F78E16A2993300B05E00 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9326F79116A2993300B05E00 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		9326F79316A2993300B05E00 /* GATestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GATestViewController.h; sourceTree = "<group>"; };
+		9326F79416A2993300B05E00 /* GATestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GATestViewController.m; sourceTree = "<group>"; };
+		9326F79B16A29A9D00B05E00 /* GAI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAI.h; sourceTree = "<group>"; };
+		9326F79C16A29A9D00B05E00 /* GAITrackedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAITrackedViewController.h; sourceTree = "<group>"; };
+		9326F79D16A29A9D00B05E00 /* GAITracker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAITracker.h; sourceTree = "<group>"; };
+		9326F79E16A29A9D00B05E00 /* GAITransaction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAITransaction.h; sourceTree = "<group>"; };
+		9326F79F16A29A9D00B05E00 /* GAITransactionItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAITransactionItem.h; sourceTree = "<group>"; };
+		9326F7A016A29A9D00B05E00 /* libGoogleAnalytics.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAnalytics.a; sourceTree = "<group>"; };
+		9326F7A216A29AE800B05E00 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		9326F7A416A29AF100B05E00 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9326F77116A2993200B05E00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9326F7A516A29AF100B05E00 /* SystemConfiguration.framework in Frameworks */,
+				9326F7A316A29AE800B05E00 /* CoreData.framework in Frameworks */,
+				9326F7A116A29AE100B05E00 /* libGoogleAnalytics.a in Frameworks */,
+				9326F77916A2993200B05E00 /* UIKit.framework in Frameworks */,
+				9326F77B16A2993200B05E00 /* Foundation.framework in Frameworks */,
+				9326F77D16A2993200B05E00 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9326F76916A2993200B05E00 = {
+			isa = PBXGroup;
+			children = (
+				9326F7A416A29AF100B05E00 /* SystemConfiguration.framework */,
+				9326F7A216A29AE800B05E00 /* CoreData.framework */,
+				9326F77E16A2993200B05E00 /* GATestApp */,
+				9326F77716A2993200B05E00 /* Frameworks */,
+				9326F77516A2993200B05E00 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9326F77516A2993200B05E00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9326F77416A2993200B05E00 /* GATestApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9326F77716A2993200B05E00 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9326F77816A2993200B05E00 /* UIKit.framework */,
+				9326F77A16A2993200B05E00 /* Foundation.framework */,
+				9326F77C16A2993200B05E00 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9326F77E16A2993200B05E00 /* GATestApp */ = {
+			isa = PBXGroup;
+			children = (
+				9326F78716A2993200B05E00 /* GATestAppDelegate.h */,
+				9326F79B16A29A9D00B05E00 /* GAI.h */,
+				9326F79C16A29A9D00B05E00 /* GAITrackedViewController.h */,
+				9326F79D16A29A9D00B05E00 /* GAITracker.h */,
+				9326F79E16A29A9D00B05E00 /* GAITransaction.h */,
+				9326F79F16A29A9D00B05E00 /* GAITransactionItem.h */,
+				9326F7A016A29A9D00B05E00 /* libGoogleAnalytics.a */,
+				9326F78816A2993200B05E00 /* GATestAppDelegate.m */,
+				9326F79016A2993300B05E00 /* MainStoryboard.storyboard */,
+				9326F79316A2993300B05E00 /* GATestViewController.h */,
+				9326F79416A2993300B05E00 /* GATestViewController.m */,
+				9326F77F16A2993200B05E00 /* Supporting Files */,
+			);
+			path = GATestApp;
+			sourceTree = "<group>";
+		};
+		9326F77F16A2993200B05E00 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9326F78016A2993200B05E00 /* GATestApp-Info.plist */,
+				9326F78116A2993200B05E00 /* InfoPlist.strings */,
+				9326F78416A2993200B05E00 /* main.m */,
+				9326F78616A2993200B05E00 /* GATestApp-Prefix.pch */,
+				9326F78A16A2993300B05E00 /* Default.png */,
+				9326F78C16A2993300B05E00 /* Default@2x.png */,
+				9326F78E16A2993300B05E00 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9326F77316A2993200B05E00 /* GATestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9326F79816A2993300B05E00 /* Build configuration list for PBXNativeTarget "GATestApp" */;
+			buildPhases = (
+				9326F77016A2993200B05E00 /* Sources */,
+				9326F77116A2993200B05E00 /* Frameworks */,
+				9326F77216A2993200B05E00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GATestApp;
+			productName = GATestApp;
+			productReference = 9326F77416A2993200B05E00 /* GATestApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9326F76B16A2993200B05E00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GATest;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Demo;
+			};
+			buildConfigurationList = 9326F76E16A2993200B05E00 /* Build configuration list for PBXProject "GATestApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9326F76916A2993200B05E00;
+			productRefGroup = 9326F77516A2993200B05E00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9326F77316A2993200B05E00 /* GATestApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9326F77216A2993200B05E00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9326F78316A2993200B05E00 /* InfoPlist.strings in Resources */,
+				9326F78B16A2993300B05E00 /* Default.png in Resources */,
+				9326F78D16A2993300B05E00 /* Default@2x.png in Resources */,
+				9326F78F16A2993300B05E00 /* Default-568h@2x.png in Resources */,
+				9326F79216A2993300B05E00 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9326F77016A2993200B05E00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9326F78516A2993200B05E00 /* main.m in Sources */,
+				9326F78916A2993200B05E00 /* GATestAppDelegate.m in Sources */,
+				9326F79516A2993300B05E00 /* GATestViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9326F78116A2993200B05E00 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9326F78216A2993200B05E00 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9326F79016A2993300B05E00 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9326F79116A2993300B05E00 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9326F79616A2993300B05E00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9326F79716A2993300B05E00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9326F79916A2993300B05E00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GATestApp/GATestApp-Prefix.pch";
+				INFOPLIST_FILE = "GATestApp/GATestApp-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/GATestApp\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9326F79A16A2993300B05E00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GATestApp/GATestApp-Prefix.pch";
+				INFOPLIST_FILE = "GATestApp/GATestApp-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/GATestApp\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9326F76E16A2993200B05E00 /* Build configuration list for PBXProject "GATestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9326F79616A2993300B05E00 /* Debug */,
+				9326F79716A2993300B05E00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9326F79816A2993300B05E00 /* Build configuration list for PBXNativeTarget "GATestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9326F79916A2993300B05E00 /* Debug */,
+				9326F79A16A2993300B05E00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9326F76B16A2993200B05E00 /* Project object */;
+}

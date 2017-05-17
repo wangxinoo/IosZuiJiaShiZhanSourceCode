@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		937E25D715E13FDE00056621 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 937E25D615E13FDE00056621 /* UIKit.framework */; };
+		937E25D915E13FDE00056621 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 937E25D815E13FDE00056621 /* Foundation.framework */; };
+		937E25DB15E13FDE00056621 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 937E25DA15E13FDE00056621 /* CoreGraphics.framework */; };
+		937E25E115E13FDE00056621 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 937E25DF15E13FDE00056621 /* InfoPlist.strings */; };
+		937E25E315E13FDE00056621 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 937E25E215E13FDE00056621 /* main.m */; };
+		937E25E715E13FDE00056621 /* ContactDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 937E25E615E13FDE00056621 /* ContactDemoAppDelegate.m */; };
+		937E25EA15E13FDE00056621 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 937E25E815E13FDE00056621 /* MainStoryboard.storyboard */; };
+		937E25ED15E13FDE00056621 /* ContactDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 937E25EC15E13FDE00056621 /* ContactDemoViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		937E25D215E13FDE00056621 /* 联络人保存Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "联络人保存Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		937E25D615E13FDE00056621 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		937E25D815E13FDE00056621 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		937E25DA15E13FDE00056621 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		937E25DE15E13FDE00056621 /* 联络人保存Demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "联络人保存Demo-Info.plist"; sourceTree = "<group>"; };
+		937E25E015E13FDE00056621 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		937E25E215E13FDE00056621 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		937E25E415E13FDE00056621 /* 联络人保存Demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "联络人保存Demo-Prefix.pch"; sourceTree = "<group>"; };
+		937E25E515E13FDE00056621 /* ContactDemoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactDemoAppDelegate.h; sourceTree = "<group>"; };
+		937E25E615E13FDE00056621 /* ContactDemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactDemoAppDelegate.m; sourceTree = "<group>"; };
+		937E25E915E13FDE00056621 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		937E25EB15E13FDE00056621 /* ContactDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactDemoViewController.h; sourceTree = "<group>"; };
+		937E25EC15E13FDE00056621 /* ContactDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactDemoViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		937E25CF15E13FDE00056621 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				937E25D715E13FDE00056621 /* UIKit.framework in Frameworks */,
+				937E25D915E13FDE00056621 /* Foundation.framework in Frameworks */,
+				937E25DB15E13FDE00056621 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		937E25C715E13FDE00056621 = {
+			isa = PBXGroup;
+			children = (
+				937E25DC15E13FDE00056621 /* 联络人保存Demo */,
+				937E25D515E13FDE00056621 /* Frameworks */,
+				937E25D315E13FDE00056621 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		937E25D315E13FDE00056621 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				937E25D215E13FDE00056621 /* 联络人保存Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		937E25D515E13FDE00056621 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				937E25D615E13FDE00056621 /* UIKit.framework */,
+				937E25D815E13FDE00056621 /* Foundation.framework */,
+				937E25DA15E13FDE00056621 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		937E25DC15E13FDE00056621 /* 联络人保存Demo */ = {
+			isa = PBXGroup;
+			children = (
+				937E25E515E13FDE00056621 /* ContactDemoAppDelegate.h */,
+				937E25E615E13FDE00056621 /* ContactDemoAppDelegate.m */,
+				937E25E815E13FDE00056621 /* MainStoryboard.storyboard */,
+				937E25EB15E13FDE00056621 /* ContactDemoViewController.h */,
+				937E25EC15E13FDE00056621 /* ContactDemoViewController.m */,
+				937E25DD15E13FDE00056621 /* Supporting Files */,
+			);
+			path = "联络人保存Demo";
+			sourceTree = "<group>";
+		};
+		937E25DD15E13FDE00056621 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				937E25DE15E13FDE00056621 /* 联络人保存Demo-Info.plist */,
+				937E25DF15E13FDE00056621 /* InfoPlist.strings */,
+				937E25E215E13FDE00056621 /* main.m */,
+				937E25E415E13FDE00056621 /* 联络人保存Demo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		937E25D115E13FDE00056621 /* 联络人保存Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 937E25F015E13FDE00056621 /* Build configuration list for PBXNativeTarget "联络人保存Demo" */;
+			buildPhases = (
+				937E25CE15E13FDE00056621 /* Sources */,
+				937E25CF15E13FDE00056621 /* Frameworks */,
+				937E25D015E13FDE00056621 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "联络人保存Demo";
+			productName = "联络人保存Demo";
+			productReference = 937E25D215E13FDE00056621 /* 联络人保存Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		937E25C915E13FDE00056621 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ContactDemo;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 937E25CC15E13FDE00056621 /* Build configuration list for PBXProject "联络人保存Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 937E25C715E13FDE00056621;
+			productRefGroup = 937E25D315E13FDE00056621 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				937E25D115E13FDE00056621 /* 联络人保存Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		937E25D015E13FDE00056621 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				937E25E115E13FDE00056621 /* InfoPlist.strings in Resources */,
+				937E25EA15E13FDE00056621 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		937E25CE15E13FDE00056621 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				937E25E315E13FDE00056621 /* main.m in Sources */,
+				937E25E715E13FDE00056621 /* ContactDemoAppDelegate.m in Sources */,
+				937E25ED15E13FDE00056621 /* ContactDemoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		937E25DF15E13FDE00056621 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				937E25E015E13FDE00056621 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		937E25E815E13FDE00056621 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				937E25E915E13FDE00056621 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		937E25EE15E13FDE00056621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		937E25EF15E13FDE00056621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		937E25F115E13FDE00056621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "联络人保存Demo/联络人保存Demo-Prefix.pch";
+				INFOPLIST_FILE = "联络人保存Demo/联络人保存Demo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		937E25F215E13FDE00056621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "联络人保存Demo/联络人保存Demo-Prefix.pch";
+				INFOPLIST_FILE = "联络人保存Demo/联络人保存Demo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		937E25CC15E13FDE00056621 /* Build configuration list for PBXProject "联络人保存Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				937E25EE15E13FDE00056621 /* Debug */,
+				937E25EF15E13FDE00056621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		937E25F015E13FDE00056621 /* Build configuration list for PBXNativeTarget "联络人保存Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				937E25F115E13FDE00056621 /* Debug */,
+				937E25F215E13FDE00056621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 937E25C915E13FDE00056621 /* Project object */;
+}

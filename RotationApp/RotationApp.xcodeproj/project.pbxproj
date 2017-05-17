@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93B322BA1674639500F6D9E3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93B322B91674639500F6D9E3 /* UIKit.framework */; };
+		93B322BC1674639500F6D9E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93B322BB1674639500F6D9E3 /* Foundation.framework */; };
+		93B322BE1674639500F6D9E3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93B322BD1674639500F6D9E3 /* CoreGraphics.framework */; };
+		93B322C41674639500F6D9E3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93B322C21674639500F6D9E3 /* InfoPlist.strings */; };
+		93B322C61674639500F6D9E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B322C51674639500F6D9E3 /* main.m */; };
+		93B322CA1674639500F6D9E3 /* RotationAppAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B322C91674639500F6D9E3 /* RotationAppAppDelegate.m */; };
+		93B322CC1674639500F6D9E3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 93B322CB1674639500F6D9E3 /* Default.png */; };
+		93B322CE1674639500F6D9E3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 93B322CD1674639500F6D9E3 /* Default@2x.png */; };
+		93B322D01674639500F6D9E3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 93B322CF1674639500F6D9E3 /* Default-568h@2x.png */; };
+		93B322D31674639500F6D9E3 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93B322D11674639500F6D9E3 /* MainStoryboard.storyboard */; };
+		93B322D61674639500F6D9E3 /* RotationAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B322D51674639500F6D9E3 /* RotationAppViewController.m */; };
+		93B322DE1674D2CA00F6D9E3 /* DrawCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B322DD1674D2CA00F6D9E3 /* DrawCircleView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		93B322B51674639500F6D9E3 /* RotationApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RotationApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93B322B91674639500F6D9E3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		93B322BB1674639500F6D9E3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		93B322BD1674639500F6D9E3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		93B322C11674639500F6D9E3 /* RotationApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RotationApp-Info.plist"; sourceTree = "<group>"; };
+		93B322C31674639500F6D9E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		93B322C51674639500F6D9E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		93B322C71674639500F6D9E3 /* RotationApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RotationApp-Prefix.pch"; sourceTree = "<group>"; };
+		93B322C81674639500F6D9E3 /* RotationAppAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RotationAppAppDelegate.h; sourceTree = "<group>"; };
+		93B322C91674639500F6D9E3 /* RotationAppAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RotationAppAppDelegate.m; sourceTree = "<group>"; };
+		93B322CB1674639500F6D9E3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		93B322CD1674639500F6D9E3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		93B322CF1674639500F6D9E3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		93B322D21674639500F6D9E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		93B322D41674639500F6D9E3 /* RotationAppViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RotationAppViewController.h; sourceTree = "<group>"; };
+		93B322D51674639500F6D9E3 /* RotationAppViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RotationAppViewController.m; sourceTree = "<group>"; };
+		93B322DC1674D2CA00F6D9E3 /* DrawCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawCircleView.h; sourceTree = "<group>"; };
+		93B322DD1674D2CA00F6D9E3 /* DrawCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawCircleView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93B322B21674639500F6D9E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93B322BA1674639500F6D9E3 /* UIKit.framework in Frameworks */,
+				93B322BC1674639500F6D9E3 /* Foundation.framework in Frameworks */,
+				93B322BE1674639500F6D9E3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93B322AA1674639500F6D9E3 = {
+			isa = PBXGroup;
+			children = (
+				93B322BF1674639500F6D9E3 /* RotationApp */,
+				93B322B81674639500F6D9E3 /* Frameworks */,
+				93B322B61674639500F6D9E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93B322B61674639500F6D9E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93B322B51674639500F6D9E3 /* RotationApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93B322B81674639500F6D9E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93B322B91674639500F6D9E3 /* UIKit.framework */,
+				93B322BB1674639500F6D9E3 /* Foundation.framework */,
+				93B322BD1674639500F6D9E3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		93B322BF1674639500F6D9E3 /* RotationApp */ = {
+			isa = PBXGroup;
+			children = (
+				93B322C81674639500F6D9E3 /* RotationAppAppDelegate.h */,
+				93B322C91674639500F6D9E3 /* RotationAppAppDelegate.m */,
+				93B322D11674639500F6D9E3 /* MainStoryboard.storyboard */,
+				93B322DC1674D2CA00F6D9E3 /* DrawCircleView.h */,
+				93B322DD1674D2CA00F6D9E3 /* DrawCircleView.m */,
+				93B322D41674639500F6D9E3 /* RotationAppViewController.h */,
+				93B322D51674639500F6D9E3 /* RotationAppViewController.m */,
+				93B322C01674639500F6D9E3 /* Supporting Files */,
+			);
+			path = RotationApp;
+			sourceTree = "<group>";
+		};
+		93B322C01674639500F6D9E3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				93B322C11674639500F6D9E3 /* RotationApp-Info.plist */,
+				93B322C21674639500F6D9E3 /* InfoPlist.strings */,
+				93B322C51674639500F6D9E3 /* main.m */,
+				93B322C71674639500F6D9E3 /* RotationApp-Prefix.pch */,
+				93B322CB1674639500F6D9E3 /* Default.png */,
+				93B322CD1674639500F6D9E3 /* Default@2x.png */,
+				93B322CF1674639500F6D9E3 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93B322B41674639500F6D9E3 /* RotationApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93B322D91674639500F6D9E3 /* Build configuration list for PBXNativeTarget "RotationApp" */;
+			buildPhases = (
+				93B322B11674639500F6D9E3 /* Sources */,
+				93B322B21674639500F6D9E3 /* Frameworks */,
+				93B322B31674639500F6D9E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RotationApp;
+			productName = RotationApp;
+			productReference = 93B322B51674639500F6D9E3 /* RotationApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93B322AC1674639500F6D9E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RotationApp;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Demo;
+			};
+			buildConfigurationList = 93B322AF1674639500F6D9E3 /* Build configuration list for PBXProject "RotationApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 93B322AA1674639500F6D9E3;
+			productRefGroup = 93B322B61674639500F6D9E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93B322B41674639500F6D9E3 /* RotationApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93B322B31674639500F6D9E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93B322C41674639500F6D9E3 /* InfoPlist.strings in Resources */,
+				93B322CC1674639500F6D9E3 /* Default.png in Resources */,
+				93B322CE1674639500F6D9E3 /* Default@2x.png in Resources */,
+				93B322D01674639500F6D9E3 /* Default-568h@2x.png in Resources */,
+				93B322D31674639500F6D9E3 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93B322B11674639500F6D9E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93B322C61674639500F6D9E3 /* main.m in Sources */,
+				93B322CA1674639500F6D9E3 /* RotationAppAppDelegate.m in Sources */,
+				93B322D61674639500F6D9E3 /* RotationAppViewController.m in Sources */,
+				93B322DE1674D2CA00F6D9E3 /* DrawCircleView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		93B322C21674639500F6D9E3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93B322C31674639500F6D9E3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		93B322D11674639500F6D9E3 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93B322D21674639500F6D9E3 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		93B322D71674639500F6D9E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		93B322D81674639500F6D9E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93B322DA1674639500F6D9E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RotationApp/RotationApp-Prefix.pch";
+				INFOPLIST_FILE = "RotationApp/RotationApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		93B322DB1674639500F6D9E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RotationApp/RotationApp-Prefix.pch";
+				INFOPLIST_FILE = "RotationApp/RotationApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93B322AF1674639500F6D9E3 /* Build configuration list for PBXProject "RotationApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93B322D71674639500F6D9E3 /* Debug */,
+				93B322D81674639500F6D9E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93B322D91674639500F6D9E3 /* Build configuration list for PBXNativeTarget "RotationApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93B322DA1674639500F6D9E3 /* Debug */,
+				93B322DB1674639500F6D9E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93B322AC1674639500F6D9E3 /* Project object */;
+}

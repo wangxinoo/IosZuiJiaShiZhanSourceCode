@@ -1,0 +1,76 @@
+{
+    "formatVersion":1,
+    "passTypeIdentifier":"pass.com.iphonedemo.lufth",
+    "serialNumber":"001",
+    "teamIdentifier":"8K3KC973J3",
+    "organizationName":"德国汉莎航空公司",
+    "description":"国际机票",
+    "logoText":"德国汉莎航空",
+    "foregroundColor":"rgb(255, 255, 255)",
+    "backgroundColor":"rgb(88,150,227)",
+    "labelColor":"rgb(45,54,129)",
+    "barcode":{
+        "message":"LH729-SH-FF-A380",
+        "format":"PKBarcodeFormatPDF417",
+        "messageEncoding":"iso-8859-1"
+    },
+    "boardingPass":{
+	"headerFields":[
+            {
+                "key" : "seat",
+		"label" : "Seat",
+                "value" : "7A"
+            },
+	    {
+                "key" : "boarding-gate",
+		"label" : "Gate",
+                "value" : "26"
+            }
+        ],
+	"primaryFields":[
+            {
+                "key" : "origin",
+		"label" : "上海",
+                "value" : "SH"
+            },
+	    {
+                "key":"destination",
+		"label" : "法兰克福",
+                "value":"FF"
+            }
+        ],
+	"auxiliaryFields":[
+            {
+                "key" : "departure-time",
+		"label" : "出发",
+                "value" : "1:50PM"
+            },
+	    {
+                "key":"flight-NO",
+		"label" : "航班号",
+                "value":"LH790"
+            },
+	    {
+                "key":"departure-date",
+		"label" : "日期",
+                "value":"2013-1-10"
+            }
+        ],
+	"secondaryFields":[
+            {
+                "key" : "passenger",
+		"label" : "乘客",
+                "value" : "杨过"
+            }
+        ],
+	"backFields":[
+	    {
+		"label" : "terms & conditions",
+		"key" : "声明和条款",
+		"value" : "汉莎航空提供本张机票"
+	    }	
+	],
+	"transitType" : "TPKTransitTypeAir"
+
+    }
+}

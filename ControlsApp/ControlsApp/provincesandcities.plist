@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>安徽省</key>
+	<array>
+		<string>安庆市</string>
+		<string>蚌埠市</string>
+		<string>毫州市</string>
+		<string>巢湖市</string>
+		<string>池州市</string>
+		<string>滁州市</string>
+		<string>阜阳市</string>
+		<string>合肥市</string>
+		<string>淮北市</string>
+		<string>淮南市</string>
+		<string>黄山市</string>
+		<string>界首市</string>
+		<string>六安市</string>
+		<string>马鞍山市</string>
+		<string>明光市</string>
+		<string>宁国市</string>
+		<string>宿州市</string>
+		<string>天长市</string>
+		<string>铜陵市</string>
+		<string>芜湖市</string>
+		<string>宣城市</string>
+	</array>
+	<key>北京市</key>
+	<array>
+		<string>北京市</string>
+	</array>
+	<key>重庆市</key>
+	<array>
+		<string>重庆市</string>
+		<string>合川市</string>
+		<string>江津市</string>
+		<string>南川市</string>
+		<string>永川市</string>
+	</array>
+	<key>福建省</key>
+	<array>
+		<string>长乐市</string>
+		<string>福清市</string>
+		<string>福州市</string>
+		<string>建瓯市</string>
+		<string>晋江市</string>
+		<string>龙海市</string>
+		<string>龙岩市</string>
+		<string>南安市</string>
+		<string>南平市</string>
+		<string>宁德市</string>
+		<string>莆田市</string>
+		<string>泉州市</string>
+		<string>三明市</string>
+		<string>石狮市</string>
+		<string>厦门市</string>
+		<string>永安市</string>
+		<string>漳平市</string>
+		<string>漳州市</string>
+	</array>
+</dict>
+</plist>

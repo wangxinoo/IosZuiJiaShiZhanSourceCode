@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93FFC6161685A95E003E207D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93FFC6151685A95E003E207D /* UIKit.framework */; };
+		93FFC6181685A95E003E207D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93FFC6171685A95E003E207D /* Foundation.framework */; };
+		93FFC61A1685A95E003E207D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93FFC6191685A95E003E207D /* CoreGraphics.framework */; };
+		93FFC6201685A95E003E207D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93FFC61E1685A95E003E207D /* InfoPlist.strings */; };
+		93FFC6221685A95F003E207D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93FFC6211685A95F003E207D /* main.m */; };
+		93FFC6261685A95F003E207D /* SwipeAppAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93FFC6251685A95F003E207D /* SwipeAppAppDelegate.m */; };
+		93FFC6281685A95F003E207D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 93FFC6271685A95F003E207D /* Default.png */; };
+		93FFC62A1685A95F003E207D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 93FFC6291685A95F003E207D /* Default@2x.png */; };
+		93FFC62C1685A95F003E207D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 93FFC62B1685A95F003E207D /* Default-568h@2x.png */; };
+		93FFC62F1685A95F003E207D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93FFC62D1685A95F003E207D /* MainStoryboard.storyboard */; };
+		93FFC6321685A960003E207D /* SwipeAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93FFC6311685A960003E207D /* SwipeAppViewController.m */; };
+		93FFC63A1685B284003E207D /* 右扫.png in Resources */ = {isa = PBXBuildFile; fileRef = 93FFC6381685B284003E207D /* 右扫.png */; };
+		93FFC63B1685B284003E207D /* 左扫.png in Resources */ = {isa = PBXBuildFile; fileRef = 93FFC6391685B284003E207D /* 左扫.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		93FFC6111685A95E003E207D /* SwipeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93FFC6151685A95E003E207D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		93FFC6171685A95E003E207D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		93FFC6191685A95E003E207D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		93FFC61D1685A95E003E207D /* SwipeApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SwipeApp-Info.plist"; sourceTree = "<group>"; };
+		93FFC61F1685A95E003E207D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		93FFC6211685A95F003E207D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		93FFC6231685A95F003E207D /* SwipeApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwipeApp-Prefix.pch"; sourceTree = "<group>"; };
+		93FFC6241685A95F003E207D /* SwipeAppAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwipeAppAppDelegate.h; sourceTree = "<group>"; };
+		93FFC6251685A95F003E207D /* SwipeAppAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwipeAppAppDelegate.m; sourceTree = "<group>"; };
+		93FFC6271685A95F003E207D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		93FFC6291685A95F003E207D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		93FFC62B1685A95F003E207D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		93FFC62E1685A95F003E207D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		93FFC6301685A960003E207D /* SwipeAppViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwipeAppViewController.h; sourceTree = "<group>"; };
+		93FFC6311685A960003E207D /* SwipeAppViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwipeAppViewController.m; sourceTree = "<group>"; };
+		93FFC6381685B284003E207D /* 右扫.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "右扫.png"; sourceTree = "<group>"; };
+		93FFC6391685B284003E207D /* 左扫.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "左扫.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93FFC60E1685A95E003E207D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93FFC6161685A95E003E207D /* UIKit.framework in Frameworks */,
+				93FFC6181685A95E003E207D /* Foundation.framework in Frameworks */,
+				93FFC61A1685A95E003E207D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93FFC6061685A95E003E207D = {
+			isa = PBXGroup;
+			children = (
+				93FFC61B1685A95E003E207D /* SwipeApp */,
+				93FFC6141685A95E003E207D /* Frameworks */,
+				93FFC6121685A95E003E207D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93FFC6121685A95E003E207D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93FFC6111685A95E003E207D /* SwipeApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93FFC6141685A95E003E207D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93FFC6151685A95E003E207D /* UIKit.framework */,
+				93FFC6171685A95E003E207D /* Foundation.framework */,
+				93FFC6191685A95E003E207D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		93FFC61B1685A95E003E207D /* SwipeApp */ = {
+			isa = PBXGroup;
+			children = (
+				93FFC6241685A95F003E207D /* SwipeAppAppDelegate.h */,
+				93FFC6251685A95F003E207D /* SwipeAppAppDelegate.m */,
+				93FFC62D1685A95F003E207D /* MainStoryboard.storyboard */,
+				93FFC6301685A960003E207D /* SwipeAppViewController.h */,
+				93FFC6311685A960003E207D /* SwipeAppViewController.m */,
+				93FFC61C1685A95E003E207D /* Supporting Files */,
+			);
+			path = SwipeApp;
+			sourceTree = "<group>";
+		};
+		93FFC61C1685A95E003E207D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				93FFC6381685B284003E207D /* 右扫.png */,
+				93FFC6391685B284003E207D /* 左扫.png */,
+				93FFC61D1685A95E003E207D /* SwipeApp-Info.plist */,
+				93FFC61E1685A95E003E207D /* InfoPlist.strings */,
+				93FFC6211685A95F003E207D /* main.m */,
+				93FFC6231685A95F003E207D /* SwipeApp-Prefix.pch */,
+				93FFC6271685A95F003E207D /* Default.png */,
+				93FFC6291685A95F003E207D /* Default@2x.png */,
+				93FFC62B1685A95F003E207D /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93FFC6101685A95E003E207D /* SwipeApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93FFC6351685A960003E207D /* Build configuration list for PBXNativeTarget "SwipeApp" */;
+			buildPhases = (
+				93FFC60D1685A95E003E207D /* Sources */,
+				93FFC60E1685A95E003E207D /* Frameworks */,
+				93FFC60F1685A95E003E207D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwipeApp;
+			productName = SwipeApp;
+			productReference = 93FFC6111685A95E003E207D /* SwipeApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93FFC6081685A95E003E207D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SwipeApp;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Demo;
+			};
+			buildConfigurationList = 93FFC60B1685A95E003E207D /* Build configuration list for PBXProject "SwipeApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 93FFC6061685A95E003E207D;
+			productRefGroup = 93FFC6121685A95E003E207D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93FFC6101685A95E003E207D /* SwipeApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93FFC60F1685A95E003E207D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93FFC6201685A95E003E207D /* InfoPlist.strings in Resources */,
+				93FFC6281685A95F003E207D /* Default.png in Resources */,
+				93FFC62A1685A95F003E207D /* Default@2x.png in Resources */,
+				93FFC62C1685A95F003E207D /* Default-568h@2x.png in Resources */,
+				93FFC62F1685A95F003E207D /* MainStoryboard.storyboard in Resources */,
+				93FFC63A1685B284003E207D /* 右扫.png in Resources */,
+				93FFC63B1685B284003E207D /* 左扫.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93FFC60D1685A95E003E207D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93FFC6221685A95F003E207D /* main.m in Sources */,
+				93FFC6261685A95F003E207D /* SwipeAppAppDelegate.m in Sources */,
+				93FFC6321685A960003E207D /* SwipeAppViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		93FFC61E1685A95E003E207D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93FFC61F1685A95E003E207D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		93FFC62D1685A95F003E207D /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93FFC62E1685A95F003E207D /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		93FFC6331685A960003E207D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		93FFC6341685A960003E207D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93FFC6361685A960003E207D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SwipeApp/SwipeApp-Prefix.pch";
+				INFOPLIST_FILE = "SwipeApp/SwipeApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		93FFC6371685A960003E207D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SwipeApp/SwipeApp-Prefix.pch";
+				INFOPLIST_FILE = "SwipeApp/SwipeApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93FFC60B1685A95E003E207D /* Build configuration list for PBXProject "SwipeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93FFC6331685A960003E207D /* Debug */,
+				93FFC6341685A960003E207D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93FFC6351685A960003E207D /* Build configuration list for PBXNativeTarget "SwipeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93FFC6361685A960003E207D /* Debug */,
+				93FFC6371685A960003E207D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93FFC6081685A95E003E207D /* Project object */;
+}

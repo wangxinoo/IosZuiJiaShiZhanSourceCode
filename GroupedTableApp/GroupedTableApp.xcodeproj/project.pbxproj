@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		933F8DB01690123900F14C71 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 933F8DAF1690123900F14C71 /* UIKit.framework */; };
+		933F8DB21690123900F14C71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 933F8DB11690123900F14C71 /* Foundation.framework */; };
+		933F8DB41690123900F14C71 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 933F8DB31690123900F14C71 /* CoreGraphics.framework */; };
+		933F8DBA1690123900F14C71 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 933F8DB81690123900F14C71 /* InfoPlist.strings */; };
+		933F8DBC1690123900F14C71 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 933F8DBB1690123900F14C71 /* main.m */; };
+		933F8DC01690123900F14C71 /* GroupedTableAppAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 933F8DBF1690123900F14C71 /* GroupedTableAppAppDelegate.m */; };
+		933F8DC21690123900F14C71 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 933F8DC11690123900F14C71 /* Default.png */; };
+		933F8DC41690123900F14C71 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 933F8DC31690123900F14C71 /* Default@2x.png */; };
+		933F8DC61690123900F14C71 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 933F8DC51690123900F14C71 /* Default-568h@2x.png */; };
+		933F8DC91690123900F14C71 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 933F8DC71690123900F14C71 /* MainStoryboard.storyboard */; };
+		933F8DCC1690123900F14C71 /* GroupedTableAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 933F8DCB1690123900F14C71 /* GroupedTableAppViewController.m */; };
+		933F8DD31690127400F14C71 /* ProvincesCities.plist in Resources */ = {isa = PBXBuildFile; fileRef = 933F8DD21690127400F14C71 /* ProvincesCities.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		933F8DAB1690123800F14C71 /* GroupedTableApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroupedTableApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		933F8DAF1690123900F14C71 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		933F8DB11690123900F14C71 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		933F8DB31690123900F14C71 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		933F8DB71690123900F14C71 /* GroupedTableApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GroupedTableApp-Info.plist"; sourceTree = "<group>"; };
+		933F8DB91690123900F14C71 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		933F8DBB1690123900F14C71 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		933F8DBD1690123900F14C71 /* GroupedTableApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GroupedTableApp-Prefix.pch"; sourceTree = "<group>"; };
+		933F8DBE1690123900F14C71 /* GroupedTableAppAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GroupedTableAppAppDelegate.h; sourceTree = "<group>"; };
+		933F8DBF1690123900F14C71 /* GroupedTableAppAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GroupedTableAppAppDelegate.m; sourceTree = "<group>"; };
+		933F8DC11690123900F14C71 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		933F8DC31690123900F14C71 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		933F8DC51690123900F14C71 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		933F8DC81690123900F14C71 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		933F8DCA1690123900F14C71 /* GroupedTableAppViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GroupedTableAppViewController.h; sourceTree = "<group>"; };
+		933F8DCB1690123900F14C71 /* GroupedTableAppViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GroupedTableAppViewController.m; sourceTree = "<group>"; };
+		933F8DD21690127400F14C71 /* ProvincesCities.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ProvincesCities.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		933F8DA81690123800F14C71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				933F8DB01690123900F14C71 /* UIKit.framework in Frameworks */,
+				933F8DB21690123900F14C71 /* Foundation.framework in Frameworks */,
+				933F8DB41690123900F14C71 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		933F8DA01690123800F14C71 = {
+			isa = PBXGroup;
+			children = (
+				933F8DB51690123900F14C71 /* GroupedTableApp */,
+				933F8DAE1690123900F14C71 /* Frameworks */,
+				933F8DAC1690123800F14C71 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		933F8DAC1690123800F14C71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				933F8DAB1690123800F14C71 /* GroupedTableApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		933F8DAE1690123900F14C71 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				933F8DAF1690123900F14C71 /* UIKit.framework */,
+				933F8DB11690123900F14C71 /* Foundation.framework */,
+				933F8DB31690123900F14C71 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		933F8DB51690123900F14C71 /* GroupedTableApp */ = {
+			isa = PBXGroup;
+			children = (
+				933F8DBE1690123900F14C71 /* GroupedTableAppAppDelegate.h */,
+				933F8DBF1690123900F14C71 /* GroupedTableAppAppDelegate.m */,
+				933F8DC71690123900F14C71 /* MainStoryboard.storyboard */,
+				933F8DCA1690123900F14C71 /* GroupedTableAppViewController.h */,
+				933F8DCB1690123900F14C71 /* GroupedTableAppViewController.m */,
+				933F8DB61690123900F14C71 /* Supporting Files */,
+			);
+			path = GroupedTableApp;
+			sourceTree = "<group>";
+		};
+		933F8DB61690123900F14C71 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				933F8DD21690127400F14C71 /* ProvincesCities.plist */,
+				933F8DB71690123900F14C71 /* GroupedTableApp-Info.plist */,
+				933F8DB81690123900F14C71 /* InfoPlist.strings */,
+				933F8DBB1690123900F14C71 /* main.m */,
+				933F8DBD1690123900F14C71 /* GroupedTableApp-Prefix.pch */,
+				933F8DC11690123900F14C71 /* Default.png */,
+				933F8DC31690123900F14C71 /* Default@2x.png */,
+				933F8DC51690123900F14C71 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		933F8DAA1690123800F14C71 /* GroupedTableApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 933F8DCF1690123900F14C71 /* Build configuration list for PBXNativeTarget "GroupedTableApp" */;
+			buildPhases = (
+				933F8DA71690123800F14C71 /* Sources */,
+				933F8DA81690123800F14C71 /* Frameworks */,
+				933F8DA91690123800F14C71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GroupedTableApp;
+			productName = GroupedTableApp;
+			productReference = 933F8DAB1690123800F14C71 /* GroupedTableApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		933F8DA21690123800F14C71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GroupedTableApp;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Demo;
+			};
+			buildConfigurationList = 933F8DA51690123800F14C71 /* Build configuration list for PBXProject "GroupedTableApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 933F8DA01690123800F14C71;
+			productRefGroup = 933F8DAC1690123800F14C71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				933F8DAA1690123800F14C71 /* GroupedTableApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		933F8DA91690123800F14C71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				933F8DBA1690123900F14C71 /* InfoPlist.strings in Resources */,
+				933F8DC21690123900F14C71 /* Default.png in Resources */,
+				933F8DC41690123900F14C71 /* Default@2x.png in Resources */,
+				933F8DC61690123900F14C71 /* Default-568h@2x.png in Resources */,
+				933F8DC91690123900F14C71 /* MainStoryboard.storyboard in Resources */,
+				933F8DD31690127400F14C71 /* ProvincesCities.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		933F8DA71690123800F14C71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				933F8DBC1690123900F14C71 /* main.m in Sources */,
+				933F8DC01690123900F14C71 /* GroupedTableAppAppDelegate.m in Sources */,
+				933F8DCC1690123900F14C71 /* GroupedTableAppViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		933F8DB81690123900F14C71 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				933F8DB91690123900F14C71 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		933F8DC71690123900F14C71 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				933F8DC81690123900F14C71 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		933F8DCD1690123900F14C71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		933F8DCE1690123900F14C71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		933F8DD01690123900F14C71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GroupedTableApp/GroupedTableApp-Prefix.pch";
+				INFOPLIST_FILE = "GroupedTableApp/GroupedTableApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		933F8DD11690123900F14C71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GroupedTableApp/GroupedTableApp-Prefix.pch";
+				INFOPLIST_FILE = "GroupedTableApp/GroupedTableApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		933F8DA51690123800F14C71 /* Build configuration list for PBXProject "GroupedTableApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				933F8DCD1690123900F14C71 /* Debug */,
+				933F8DCE1690123900F14C71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		933F8DCF1690123900F14C71 /* Build configuration list for PBXNativeTarget "GroupedTableApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				933F8DD01690123900F14C71 /* Debug */,
+				933F8DD11690123900F14C71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 933F8DA21690123800F14C71 /* Project object */;
+}
